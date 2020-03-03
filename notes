@@ -1,1 +1,4 @@
-Homework assignment application same as first_test_app but with HTML views added on home page and about page.
+Blog application
+Rails version 5.2.4.1
+Ruby version ruby 2.5.6p201
+Bootstrap version 3.3.7
