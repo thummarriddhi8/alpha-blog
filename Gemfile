@@ -10,6 +10,8 @@ gem "puma", ">= 3.12.4"
 gem 'bcrypt', '~> 3.1.7'
 gem 'will_paginate', '3.1.7'
 gem 'bootstrap-will_paginate', '1.0.0'
+# To use a method assert_template in testing suite
+gem 'rails-controller-testing'
 # Use SCSS for stylesheets
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
