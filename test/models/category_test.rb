@@ -7,6 +7,7 @@ class CategoryTest < ActiveSupport::TestCase
 	end
 
 	test "category should be valid" do
+		# Basically the following statement tests that can we create a new instance of Category and is it valid?
 		assert @category.valid?
 	end
 
