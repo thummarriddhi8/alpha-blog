@@ -21,6 +21,10 @@ $navbar-default-bg: #c1c1c1;
 	text-align: center;
 }
 
+.mt-10 {
+	margin-top: 10px;
+}
+
 .jumbotron {
 	background-image: asset_url('cover-image.jpg');
 	height: 550px;
@@ -47,6 +51,22 @@ $navbar-default-bg: #c1c1c1;
 	background-color: lightgray;
 	color: #000;
 }
+
+/* Outline buttons */
+.info-outline {
+	border-color: #46b8da;
+  color: #5bc0de;
+  background-color: white;
+}
+
+.success-outline {
+	border-color: #4cae4c;
+	color: #5cb85c;
+	background-color: white;
+}
+
+
+/* Outline buttons design over */
 
 .article-actions {
 	border-top: 1px solid #eaeaea;

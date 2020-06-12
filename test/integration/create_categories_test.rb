@@ -2,7 +2,8 @@ require 'test_helper'
 
 class CreateCategoriesTest < ActionDispatch::IntegrationTest
   def setup
-    @user = User.create(username: 'rachelzane', email: 'rachel@example.com', password: 'iamanamazinglawyer', admin: true) 
+    @admin_user = User.create(username: 'rachelzane', email: 'rachel@example.com', password: 'iamanamazinglawyer', admin: true)
+    sign_in_as(@admin_user, 'iamanamazinglawyer')  
   end
   # Test to check that new form for category comes when you visit the new_category_path, and when informationis entered, it goes to create category method via post and retruns appropriate data on index page
   test "get new category form and create category" do

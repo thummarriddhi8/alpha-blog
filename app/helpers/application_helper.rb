@@ -5,6 +5,6 @@ module ApplicationHelper
 		size = options[:size]
 		# put its value to get the gravatar_url
 		gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
-		image_tag(gravatar_url, alt: user.username, class: 'img-circle')
+		image_tag(gravatar_url, alt: user.username)
 	end
 end
